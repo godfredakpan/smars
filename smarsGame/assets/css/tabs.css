@@ -1,0 +1,132 @@
+.nav li {
+
+    margin-right: 50px;
+} 
+
+.carousel-item-img{
+    width: 30% !important;
+    margin: auto;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+/*  */
+
+.tab-bar {
+  margin: 30px auto;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.tab {
+  width: 150px;
+  padding: 15px 0;
+  background: #ca830d;
+  color: #fff;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.tab:hover {
+  width: 150px;
+  padding: 15px 0;
+  background: #124446;
+  color: #fff !important;
+  font-weight: 600;
+  overflow: hidden;
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  cursor: pointer;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.tab a{
+  text-decoration: none !important;
+}
+a:link, a:visited,  a:hover, a:active{
+  text-decoration: none !important;
+
+}
+
+.active{
+  background-color: #081d1e;
+  color: #fff;
+}
+
+.header-title{
+  font-family: 'Exo', sans-serif; color: #ca830d; font-weight: 600;
+}
+
+/* 
+.indicator {
+  width: 50px;
+  height: 3px;
+  background: #2196F3;
+  position: absolute;
+  margin-top: 58px;
+  margin-left:0;
+  -webkit-transition: margin 0.5s ease;
+  
+  transition: margin 0.5s ease;
+} */
+
+.cercle {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+}
+
+.light .cercle {background: white}
+.dark .cercle {background: black}
+
+.anim {
+  opacity: 0.2;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  -webkit-animation: touch 1.2s ease-out;
+          animation: touch 1.2s ease-out;
+}
+
+@-webkit-keyframes touch {
+  100% { 
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin: -300px;
+  }
+}
+
+@keyframes touch {
+  100% { 
+    width: 600px;
+    height: 600px;
+    border-radius: 600px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    margin: -300px;
+  }
+}
