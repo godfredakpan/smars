@@ -140,7 +140,7 @@
             <br>
             <br>
             <div class="token-carder text-center mt-5" style="margin-top:5rem !important; opacity: 65%; background-color: #081d1e;"> 
-              <p class="main-address mt-5" style="margin-top:5rem !important; opacity: 65%; font-size: 12px;">OFFICIAL CONTRACT ADDRESS: 0x9a5fcB569783eee016F88690946445a0D0F9ee63</p>
+              <p class="main-address mt-5 p-2" style="margin-top:5rem !important; opacity: 65%; font-size: 13px;">OFFICIAL CONTRACT ADDRESS: 0x9a5fcB569783eee016F88690946445a0D0F9ee63</p>
             </div>
                 <div class="hero_banner_inner">
                     <div class="row align-items-center">
@@ -590,10 +590,18 @@
                               <a href="marketplace.html" class="ag-vacancy_btn">Marketplace</a>
                             </div>
 
+                            <div class="js-vacancy_item ag-vacancy_item">
+                              <div class="ag-vacancy_icon">
+                                <img src="assets/img/skin/RomanArmor.G01.2k.png"/>
+                              </div>
+                  
+                              <a href="marketplace.html" class="ag-vacancy_btn">Marketplace</a>
+                            </div>
+
 
                           </div>
                   
-                          <div class="js-ag-vacancy_arrow js-ag-vacancy_arrow__prev">
+                          <div class="js-ag-vacancy_arrow js-ag-vacancy_arrow__prev_skins">
                             <img src="https://raw.githack.com/SochavaAG/example-mycode/master/pens/slider-slick/images/arrow-slider-prev.svg" class="js-ag-vacancy_img-arrow__prev" alt="" />
                           </div>
                           <div class="js-ag-vacancy_arrow js-ag-vacancy_arrow__next_skins js-ag-vacancy_arrow__hide">
@@ -1274,7 +1282,7 @@
           var prevVacantions = $(event.target).find('.js-vacancy_item.slick-active').first().prev().length;
           var nextVacantions = $(event.target).find('.js-vacancy_item.slick-active').last().next().length;
 
-          (!prevVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev').removeClass('js-ag-vacancy_arrow__hide');
+          (!prevVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev_skins').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev_skins').removeClass('js-ag-vacancy_arrow__hide');
           (!nextVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__next_skins').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__next_skins').removeClass('js-ag-vacancy_arrow__hide');
         });
 
@@ -1285,7 +1293,7 @@
           rows: false,
           arrows: true,
           adaptiveHeight: true,
-          prevArrow: $('.js-ag-vacancy_arrow__prev'),
+          prevArrow: $('.js-ag-vacancy_arrow__prev_skins'),
           nextArrow: $('.js-ag-vacancy_arrow__next_skins'),
           responsive: [
             {
@@ -1314,7 +1322,7 @@
           var prevVacantions = $(event.target).find('.js-vacancy_item.slick-active').first().prev().length;
           var nextVacantions = $(event.target).find('.js-vacancy_item.slick-active').last().next().length;
 
-          (!prevVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev').removeClass('js-ag-vacancy_arrow__hide');
+          (!prevVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev_skins').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__prev_skins').removeClass('js-ag-vacancy_arrow__hide');
           (!nextVacantions) ? $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__next_skins').addClass('js-ag-vacancy_arrow__hide') : $('.js-ag-vacancy_arrow.js-ag-vacancy_arrow__next_skins').removeClass('js-ag-vacancy_arrow__hide');
         });
       }
@@ -1366,6 +1374,7 @@
     }
     .main-address{
       font-size: 10px !important;
+      padding: 0.1rem !important;
     }
     .header-title{
       font-size: 25px !important;
@@ -1385,6 +1394,12 @@
     .tab-side{
       font-size: 7px !important;
     }
+    .hero_banner_inner{
+      margin-top: -1.3rem !important;
+    }
+    .hero_content{
+      margin-top: 0px !important;
+    }
   } 
   
   @media only screen and (max-width:370px) {
@@ -1395,6 +1410,7 @@
     }
     .hero-one{
       font-size: 35px !important;
+      text-align: left !important;
     }
     .hero-two{
       font-size: 10px !important;
@@ -1407,6 +1423,7 @@
     }
     .main-address{
       font-size: 10px !important;
+      padding: 0.1rem !important;
     }
     .header-title{
       font-size: 25px !important;
@@ -1423,6 +1440,12 @@
     a.tab-side{
       font-size: 7px !important;
     }
+    .hero_banner_inner{
+      margin-top: -1.5rem !important;
+    }
+    .hero_content{
+      margin-top: -2rem !important;
+    }
   } 
 
   @media only screen and (max-width:480px) {
@@ -1433,6 +1456,7 @@
     }
     .hero-one{
       font-size: 35px !important;
+      text-align: left !important;
     }
     .hero-two{
       font-size: 13px !important;
@@ -1447,7 +1471,7 @@
     .main-address{
       font-size: 10px !important;
       margin-top: 4% !important;
-      margin-bottom: 4% !important;
+      margin-bottom: 1% !important;
     }
     .header-title{
       font-size: 25px !important;
@@ -1467,6 +1491,9 @@
     a.tab-side{
       font-size: 8px !important;
     }
+    .hero_content{
+      margin-top: -2rem !important;
+    }
   } 
 
   @media only screen and (max-width:500px) {
@@ -1477,6 +1504,7 @@
     }
     .hero-one{
       font-size: 35px !important;
+      text-align: left !important;
     }
     .hero-two{
       font-size: 13px !important;
@@ -1505,6 +1533,9 @@
     a.tab-side{
       font-size: 11px !important;
     }
+    .hero_content{
+      margin-top: -2rem !important;
+    }
   } 
 
   @media only screen and (max-width:550px) {
@@ -1515,6 +1546,7 @@
     }
     .hero-one{
       font-size: 35px !important;
+      text-align: left !important;
     }
     .hero-two{
       font-size: 13px !important;
@@ -1537,6 +1569,279 @@
     .gaming_update_section{
       margin-top: 15% !important;
     }
+    .hero_content{
+      margin-top: -2rem !important;
+    }
   } 
+
+
+  @media only screen and (max-width:800px) {
+    body{
+      width: 100% !important;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+    .hero-one{
+      font-size: 35px !important;
+      text-align: left !important;
+    }
+    .hero-two{
+      font-size: 13px !important;
+      text-align: justify;
+    }
+    .header-one{
+      font-size: 18px !important;
+    }
+    .header-two{
+      font-size: 18px !important;
+    }
+    .main-address{
+      font-size: 10px !important;
+      margin-top: 8% !important;
+      margin-bottom: 4% !important;
+    }
+    .header-title{
+      font-size: 25px !important;
+    }
+    .gaming_update_section{
+      margin-top: 15% !important;
+    }
+    .hero_content{
+      margin-top: 1rem !important;
+    }
+  } 
+
+  .js-ag-vacancy_arrow {
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    background: rgba(105, 130, 255, .11);
+  
+    cursor: pointer;
+  
+    opacity: 0;
+  
+    text-align: center;
+  
+    z-index: 30;
+    position: absolute;
+    top: 50%;
+  
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+  
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+  
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .js-ag-vacancy_arrow:hover {
+    background: rgba(105, 130, 255, .2);
+  
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+  }
+  .ag-vacancy_box:hover .js-ag-vacancy_arrow {
+    opacity: 1;
+  }
+  .ag-vacancy_box:hover .js-ag-vacancy_arrow__hide {
+    opacity: 0;
+  }
+  .js-ag-vacancy_arrow__prev_heroes {
+    left: 0;
+  
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .js-ag-vacancy_arrow__next_heroes {
+    right: -80px;
+  
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+
+  .js-ag-vacancy_arrow__prev_equipment {
+    left: 0;
+  
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .js-ag-vacancy_arrow__next_equipment {
+    right: -80px;
+  
+    -webkit-transform: translate(50%, -50%);
+    -moz-transform: translate(50%, -50%);
+    -ms-transform: translate(50%, -50%);
+    -o-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+  }
+  .js-ag-vacancy_img-arrow__prev {
+    margin: 0 0 0 -5px;
+  }
+  .js-ag-vacancy_img-arrow__next {
+    margin: 0 -5px 0 0;
+  }
+  
+  /* slick */
+  .slick-list {
+    overflow: visible !important;
+  }
+  .slick-initialized {
+    display: block;
+  }
+  .slick-slide {
+    opacity: 0.5;
+  
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+  
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transform: scale(.9);
+  }
+  .slick-active {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+  
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  /* /slick */
+  
+  
+  @media (max-width: 1600px) {
+    .ag-vacancy_box {
+      width: calc(100% - 400px);
+    }
+    .ag-vacancy_item {
+      min-height: 390px;
+    }
+    .ag-vacancy_name {
+      line-height: 30px;
+  
+      font-size: 25px;
+    }
+    .ag-vacancy_descr {
+      margin-bottom: 30px;
+    }
+    .ag-vacancy_btn {
+      /* left: 20px; */
+      /* padding: 22px 50px; */
+    }
+  }
+  
+  @media (max-width: 1500px) {
+    .ag-vacancy_box {
+      padding-left: 70px;
+    }
+    .ag-vacancy_item {
+      min-height: 360px;
+      width: 320px;
+      margin-right: 25px;
+      padding: 25px 30px;
+    }
+    .ag-vacancy_btn {
+      background: #D4D6F5;
+  
+      position: absolute;
+      left: 25px;
+      bottom: 40px;
+    }
+  
+    .js-ag-vacancy_arrow {
+      height: 80px;
+      line-height: 80px;
+      width: 80px;
+    }
+    .js-ag-vacancy_arrow__next {
+      right: 0;
+    }
+    .js-ag-vacancy_arrow__next_heroes {
+      right: 0;
+    }
+    .js-ag-vacancy_arrow__next_equipment {
+      right: 0;
+    }
+    .js-ag-vacancy_arrow__next_skins {
+      right: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .ag-format-container {
+      width: 96%;
+    }
+  
+    .ag-vacancy_box {
+      width: 100%;
+      padding-left: 0;
+    }
+    .ag-vacancy_item {
+      width: 260px;
+      min-height: 350px;
+      padding: 25px 17px;
+      margin-right: 15px;
+    }
+    .ag-vacancy_name {
+      font-size: 22px;
+      line-height: 26px;
+    }
+    .ag-vacancy_descr {
+      font-size: 17px;
+    }
+    .ag-vacancy_text__strong {
+      padding-right: 5px;
+    }
+    .ag-vacancy_btn {
+      padding: 20px 30px;
+  
+      font-size: 16px;
+  
+      left: 15px;
+    }
+  
+    .js-ag-vacancy_arrow {
+      float: left;
+      margin: 20px 25px 0 0;
+  
+      opacity: 1;
+  
+      position: static;
+  
+      -webkit-transform: none;
+      -moz-transform: none;
+      -ms-transform: none;
+      -o-transform: none;
+      transform: none;
+    }
+    .js-ag-vacancy_arrow__hide,
+    .ag-vacancy_box:hover .js-ag-vacancy_arrow__hide {
+      background-color: rgba(105, 130, 255, .2);
+  
+      cursor: default;
+  
+      opacity: .4;
+    }
+  }
 </style>
 </html>
