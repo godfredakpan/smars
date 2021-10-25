@@ -1,0 +1,128 @@
+/* bootstrap 3 multi-col carousel */
+#slick {
+  display: none;
+  
+  &.slick-initialized {
+    display: block;
+  }
+  
+  /* .slick-list emulates .row */
+  .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  /* .slick-slide emulates .col- */
+  .slick-slide {
+    padding-right: 15px;
+    padding-left: 15px;
+    cursor: initial;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  /* slick arrows */
+  .slick-arrow {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    opacity: .5;
+    transition: opacity .5s ease;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    font-size: 0;
+    background: none;
+    color: transparent;
+    
+    &:hover {
+      opacity: 1;
+    }
+    
+    &:before {
+      font-size: 30px;
+      color: #212529;
+    }
+    
+    &.slick-prev {
+      left: 0;
+      transform: translate(calc(-100% - 15px),-50%);
+      
+      &:before {
+        content: "\e079";
+      }
+    }
+    
+    &.slick-next {
+      right: 0;
+      transform: translate(calc(100% + 15px),-50%);
+      
+      &:before {
+        content: "\e080";
+      }
+    }
+  }
+  
+  /* slick dots */
+  .slick-dots {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    padding: 0;
+    list-style: none;
+    z-index: 1;
+    margin: 0;
+    display: block;
+    transform: translate(-50%,calc(100% + 30px));
+    
+    > LI {
+      float: left;
+      display: block;
+      padding: 1px;
+      margin-right: 4px;
+      
+      BUTTON {
+        display: block;
+        width: 10px;
+        height: 10px;
+        text-indent: -999px;
+        cursor: pointer;
+        background: transparent;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #212529;
+        border-radius: 50%;
+        
+        &:focus {
+          outline: none;
+        }
+        
+      }
+      
+      &.slick-active,
+      &:hover {
+        padding: 0;
+        
+        BUTTON {
+          width: 12px;
+          height: 12px;
+          background: #212529;
+          border: 1px solid #212529;
+        }  
+      }
+      
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
