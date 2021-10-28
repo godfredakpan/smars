@@ -1683,7 +1683,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 }
 @media only screen and (max-width: 575px) {
   .hero_content {
-    padding-top: 152px;
+    padding-top: 30px;
   }
 }
 .hero_content h1 {
