@@ -7069,3 +7069,891 @@ section.error_section {
 .square-holder:hover img{
   filter:none;
 }
+
+
+@media only screen and (max-width:360px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+  }
+  .hero-two{
+    font-size: 10px !important;
+    width: 275px !important;
+    text-align: left !important;
+  }
+  .header-one{
+    font-size: 15px !important;
+    text-align: justify !important;
+    word-spacing: -3px !important;
+  }
+  .header-two{
+    font-size: 15px !important;
+    text-align: justify !important;
+
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* padding: 0.1rem !important; */
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .token-container{
+    margin-top: 1% !important;
+  }
+  .timestamp{
+    margin-left: -10% !important;
+    text-align: left !important;
+  }
+  .item-detail{
+    font-size: 10px !important;
+  }
+  .gaming_update_section{
+    margin-top: 65% !important;
+  }
+  .gaming-update-section-main{
+    margin-top: 65% !important;
+    margin-bottom: 10% !important;
+    text-align: center !important;
+  }
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+ 
+  .tab-side{
+    font-size: 7px !important;
+  }
+  .hero_banner_inner{
+    margin-top: -1.3rem !important;
+  }
+  .hero_content{
+    margin-top: 1px !important;
+    /* margin-left: 0.9rem !important; */
+  }
+
+  .game-sect{
+    margin-top: 55% !important;
+  }
+
+} 
+
+@media only screen and (max-width:370px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: left !important;
+  }
+  .hero-two{
+    font-size: 10px !important;
+    width: 275px !important;
+    text-align: left !important;
+  }
+  .header-one{
+    font-size: 15px !important;
+    text-align: justify !important;
+  }
+  .header-two{
+    font-size: 15px !important;
+    text-align: justify !important;
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* padding: 0.1rem !important; */
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .token-container{
+    margin-top: 5% !important;
+  }
+  .timestamp{
+    left: -110% !important;
+  }
+  .gaming_update_section{
+    margin-top: 15% !important;
+  }
+  a.tab-side{
+    font-size: 7px !important;
+  }
+  .hero_banner_inner{
+    margin-top: -1.5rem !important;
+  }
+  .hero_content{
+    text-align: center !important;
+  }
+  .gaming-update-section-main{
+    margin-top: 50% !important;
+    margin-bottom: 10% !important;
+    text-align: center !important;
+  }
+  .buy-now-btn{
+    margin-top: -6.5rem !important;
+    /* margin-right: 1rem !important; */
+  }
+
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+
+  .game-sect{
+    margin-top: 55% !important;
+  }
+
+} 
+
+@media only screen and (min-device-width:370px) and (max-device-width:400px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: 18px !important;
+  }
+
+  .canvas_open{
+    margin-top: -4.2% !important;
+  }
+} 
+
+@media only screen and (min-device-width:401px) and (max-device-width:440px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: 18px !important;
+  }
+
+  .canvas_open{
+    margin-top: -3% !important;
+  }
+
+  .second-name{
+    margin-bottom: -4% !important;
+  }
+} 
+
+@media only screen and (min-device-width:441px) and (max-device-width:480px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: 18px !important;
+  }
+
+  .canvas_open{
+    margin-top: -1.5% !important;
+  }
+} 
+
+@media only screen and (min-device-width:481px) and (max-device-width:520px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: 18px !important;
+  }
+
+  .canvas_open{
+    margin-top: 0% !important;
+  }
+}
+
+@media only screen and (min-device-width:545px) and (max-device-width:574px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: -40px !important;
+  }
+
+  .canvas_open{
+    margin-top: 0% !important;
+  }
+}
+
+
+@media only screen and (max-width:420px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: left !important;
+  }
+  .hero-two{
+    font-size: 10px !important;
+    width: 275px !important;
+    text-align: left !important;
+  }
+  .header-one{
+    font-size: 15px !important;
+    text-align: justify!important;
+  }
+  .header-two{
+    font-size: 15px !important;
+    text-align: justify!important;
+
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* padding: 0.1rem !important; */
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .token-container{
+    margin-top: 5% !important;
+  }
+  .timestamp{
+    left: -110% !important;
+  }
+  .gaming_update_section{
+    margin-top: 15% !important;
+  }
+  a.tab-side{
+    font-size: 7px !important;
+  }
+  .hero_banner_inner{
+    margin-top: -1.5rem !important;
+  }
+  .hero_content{
+    /* margin-top: -2rem !important; */
+    /* margin-left: 0.9rem !important; */
+  }
+  .gaming-update-section-main{
+    margin-top: 20% !important;
+    margin-bottom: 10% !important;
+    text-align: center;
+  }
+  .buy-now-btn{
+    margin-top: -6.5rem !important;
+    /* margin-left: 1rem !important; */
+  }
+
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+
+  .game-sect{
+    margin-top: 50% !important;
+  }
+} 
+
+
+
+@media only screen and (max-width:480px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: left !important;
+  }
+  .hero-two{
+    font-size: 13px !important;
+    text-align: justify;
+  }
+  .header-one{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .header-two{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* margin-top: 4% !important; */
+    margin-bottom: 1% !important;
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .gaming-update-side{
+    margin-top: 15% !important;
+  }
+  .gaming-update-section-main{
+    margin-top: 15% !important;
+    text-align: center;
+  }
+  .token-container{
+    margin-top: 1% !important;
+  }
+  .timestamp{
+    left: -80% !important;
+  }
+  a.tab-side{
+    font-size: 8px !important;
+  }
+
+  .buy-now-btn{
+    margin-top: -6.5rem !important;
+    /* margin-left: 1.5rem !important; */
+  }
+
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+
+  .game-sect{
+    margin-top: 45% !important;
+  }
+} 
+
+@media only screen and (max-width:500px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: left !important;
+  }
+  .hero-two{
+    font-size: 13px !important;
+    text-align: justify;
+  }
+  .header-one{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .header-two{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* margin-top: 4% !important; */
+    margin-bottom: 4% !important;
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .gaming_update_section{
+    margin-top: 15% !important;
+  }
+  .token-container{
+    margin-top: 1% !important;
+  }
+  a.tab-side{
+    font-size: 11px !important;
+  }
+  .buy-now-btn{
+    margin-top: -6.5rem !important;
+    /* margin-left: 1.5rem !important; */
+  }
+
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+
+  .gaming-update-section-main{
+    text-align: center;
+  }
+
+  .game-sect{
+    margin-top: 40% !important;
+  }
+} 
+
+@media only screen and (max-width:550px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: center !important;
+  }
+  .hero-two{
+    font-size: 13px !important;
+    text-align: justify;
+  }
+  .header-one{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .header-two{
+    font-size: 18px !important;
+    text-align: justify;
+
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* margin-top: 8% !important; */
+    margin-bottom: 4% !important;
+  }
+  .header-title{
+    font-size: 25px !important;
+  }
+  .gaming_update_section{
+    margin-top: 15% !important;
+  }
+  .hero_content{
+    /* margin-top: -2rem !important; */
+  }
+  .buy-now-btn{
+    margin-top: -6.5rem !important;
+    /* margin-left: 1.5rem !important; */
+  }
+
+  .game-update-side{
+    margin-top: 30% !important;
+  }
+
+  .gaming-update-section-main{
+    text-align: center;
+  }
+
+  .game-sect{
+    margin-top: 40% !important;
+  }
+
+  
+} 
+
+
+@media only screen and (max-width:575px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .full-name{
+    font-size: 14px !important;
+    margin-top: -30px !important;
+    white-space: no-wrap !important;
+  }
+
+  .speciality{
+    font-size: 10px !important;
+    /* margin-top: -10px !important; */
+  }
+
+  #special-right{
+    margin-top: -20% !important;
+  }
+
+  .header-title{
+    font-size: 25px !important;
+    line-height: 2.5rem !important
+  }
+
+  .hero_content{
+    display: none !important;
+  }
+  
+  .buy-now-btn{
+    display: none !important;
+  }
+
+  .mentioned-section{
+    margin-top: -23% !important;
+  }
+
+  .each-person{
+    margin-top: -15% !important;
+  }
+
+  .gaming-update-section-main{
+    margin-top: -20% !important;
+  }
+
+  .tab-bar{
+    padding-right: 5% !important;
+  }
+
+  .footer-header-one{
+    margin-top: -10% !important;
+  }
+
+} 
+
+@media only screen and (max-width:800px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  .hero-one{
+    font-size: 35px !important;
+    text-align: center !important;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .hero-two{
+    font-size: 13px !important;
+    text-align: center;
+    width: 500px;
+  }
+  .header-one{
+    font-size: 18px !important;
+  }
+  .header-two{
+    font-size: 14px !important;
+    padding: 30px;
+  }
+  .main-address{
+    font-size: 10px !important;
+    /* margin-top: 8% !important; */
+    margin-bottom: 4% !important;
+  }
+  .gaming_update_section{
+    margin-top: 15% !important;
+  }
+  .hero_content{
+    margin-top: 1rem !important;
+  }
+} 
+
+.js-ag-vacancy_arrow {
+  height: 100px;
+  line-height: 100px;
+  width: 100px;
+  background: rgba(105, 130, 255, .11);
+
+  cursor: pointer;
+
+  opacity: 0;
+
+  text-align: center;
+
+  z-index: 30;
+  position: absolute;
+  top: 50%;
+
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+.js-ag-vacancy_arrow:hover {
+  background: rgba(105, 130, 255, .2);
+
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+.ag-vacancy_box:hover .js-ag-vacancy_arrow {
+  opacity: 1;
+}
+.ag-vacancy_box:hover .js-ag-vacancy_arrow__hide {
+  opacity: 0;
+}
+.js-ag-vacancy_arrow__prev_heroes {
+  left: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.js-ag-vacancy_arrow__next_heroes {
+  right: -80px;
+
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+
+.js-ag-vacancy_arrow__prev_equipment {
+  left: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.js-ag-vacancy_arrow__next_equipment {
+  right: -80px;
+
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+
+.js-ag-vacancy_arrow__prev_skins {
+  left: 0;
+
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.js-ag-vacancy_arrow__next_skins {
+  right: -80px;
+
+  -webkit-transform: translate(50%, -50%);
+  -moz-transform: translate(50%, -50%);
+  -ms-transform: translate(50%, -50%);
+  -o-transform: translate(50%, -50%);
+  transform: translate(50%, -50%);
+}
+.js-ag-vacancy_img-arrow__prev {
+  margin: 0 0 0 -5px;
+}
+.js-ag-vacancy_img-arrow__next {
+  margin: 0 -5px 0 0;
+}
+
+/* slick */
+.slick-list {
+  overflow: visible !important;
+}
+.slick-initialized {
+  display: block;
+}
+.slick-slide {
+  opacity: 0.5;
+
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+
+  -webkit-transform: scale(.9);
+  -moz-transform: scale(.9);
+  -ms-transform: scale(.9);
+  -o-transform: scale(.9);
+  transform: scale(.9);
+}
+.slick-active {
+  -webkit-filter: blur(0);
+  filter: blur(0);
+
+  opacity: 1;
+
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+/* /slick */
+
+
+
+@media (max-width: 1500px) {
+  .ag-vacancy_box {
+    padding-left: 70px;
+  }
+  .ag-vacancy_item {
+    min-height: 360px;
+    width: 320px;
+    margin-right: 25px;
+    padding: 25px 30px;
+  }
+  .ag-vacancy_btn {
+    background: #D4D6F5;
+
+    position: absolute;
+    left: 25px;
+    bottom: 40px;
+  }
+
+  .js-ag-vacancy_arrow {
+    height: 80px;
+    line-height: 80px;
+    width: 80px;
+  }
+  .js-ag-vacancy_arrow__next {
+    right: 0;
+  }
+  .js-ag-vacancy_arrow__next_heroes {
+    right: 0;
+  }
+  .js-ag-vacancy_arrow__next_equipment {
+    right: 0;
+  }
+  .js-ag-vacancy_arrow__next_skins {
+    right: 0;
+  }
+}
+
+<!-- @media only screen and (max-width:575px) {
+  body{
+    width: 100% !important;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+  .header_right_sidebar{
+    margin-top: 18px !important;
+  }
+} -->
+
+  @media only screen and (min-width:320px) and (max-width:349px) {
+    body{
+      width: 100% !important;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    .header_right_sidebar{
+      margin-top: 18px !important;
+    }
+
+    .canvas_open{
+      margin-top: -7.5% !important;
+    } 
+  } 
+
+  @media only screen and (min-width:350px) and (max-width:360px) {
+    body{
+      width: 100% !important;
+      overflow-x: hidden;
+      overflow-y: scroll;
+    }
+
+    .header_right_sidebar{
+      margin-top: 18px !important;
+    }
+
+    .canvas_open{
+      margin-top: -5.2% !important;
+    }
+  }
+    
+    @media only screen and (min-device-width:370px) and (max-device-width:390px) {
+      body{
+        width: 100% !important;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+  
+      .header_right_sidebar{
+        margin-top: 18px !important;
+      }
+
+      .canvas_open{
+        margin-top: -5.2% !important;
+      }
+    } 
+
+
+    .address-side{
+      width: 122% !important;
+      margin-left: -10% !important;
+    }
+
+    .da-sidebar{
+      color: rgba(165, 117, 14, 0.836) !important;
+    }
+
+    .gamer_team_section{
+      margin-top: -15% !important;
+    }
+
+    .full-team-list{
+      margin-top: -6% !important;
+    }
+
+    .speciality{
+      text-transform: capitalize !important;
+    }
+
+    .footer-header{
+      margin-top: 50% !important;
+    }
+
+    .mentioned-section{
+      margin-top: -15% !important;
+    }
+
+    .tab-bar{
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      gap: 10px;
+    }
+
+    @media only screen and (max-width:575px) {
+      body{
+        width: 100% !important;
+        overflow-x: hidden;
+        overflow-y: scroll;
+      }
+
+      .footer-header{
+        margin-top: -8% !important;
+      }
+
+      .gamer_team_section{
+        margin-top: -19% !important;
+      }
+
+      .full-team-list{
+        margin-top: -8% !important;
+      }
+
+      .second-person{
+        margin-top: 40% !important;
+      }
+
+      .tab-bar{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 5px;
+      }
+
+      a.tab-side{
+        font-size: 9px !important;
+      }
+
+      .speciality-two{
+        margin-bottom: -5% !important
+      }
+
+      .single-person{
+        margin-top: -30px !important;
+      }
+
+
+    }
