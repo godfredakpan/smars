@@ -7223,6 +7223,10 @@ section.error_section {
   .canvas_open{
     margin-top: -4.2% !important;
   }
+
+  .second-name{
+    margin-bottom: -5.5% !important;
+  }
 } 
 
 @media only screen and (min-device-width:401px) and (max-device-width:440px) {
